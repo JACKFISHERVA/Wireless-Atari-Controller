@@ -9,7 +9,7 @@ int Down_Pin = ;
 int Left_Pin = ;
 int Right_Pin = ;
 
-uint8_t broadcastAddress[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+uint8_t broadcastAddress[] = {0x30, 0xAE, 0xA4, 0x22, 0xCA, 0x4C};
 
 typedef struct struct_message {
   bool ButtonA, ButtonB, Up, Down, Right, Left;
